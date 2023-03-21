@@ -1,0 +1,871 @@
+#background {
+    background-image: url("images/vegetables-set-left-black-slate.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    position: relative;
+
+}
+
+#background::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.619);
+    z-index: 1;
+    opacity: 0.3;
+}
+
+.sec-1-para {
+    color: rgb(209, 205, 205);
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+.nav-ul li a {
+    color: rgb(255, 253, 253) !important;
+}
+
+.nav-icon {
+    color: white;
+}
+
+.nav-button {
+    background-color: rgb(224, 151, 78);
+    padding: 10px 10px;
+    margin: 0 5px;
+    border: none;
+    font-size: 12px;
+}
+
+.sec-2 {
+    padding: 70px 0 220px 0;
+    border-top: 1px solid rgb(78, 78, 78);
+    border-bottom: 1px solid rgb(78, 78, 78);
+}
+
+/* section-3 */
+.sec-3 {
+    padding: 20px 0;
+}
+
+.sec-3-h3-1 {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(224, 151, 78);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.sec-3-h3-2 {
+    letter-spacing: 1.5px;
+    color: white;
+    font-size: 37px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sec-3-para1 {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.sec-3-para2 {
+    color: rgb(237, 235, 235);
+    font-size: 12px;
+}
+
+.sec-3-col {
+    text-align: center;
+}
+
+.sec-4-img1 {
+    margin-top: 30px;
+    float: right;
+    position: relative;
+    left: 80px;
+}
+
+.sec-4-img2 {
+    margin-top: 70px;
+    float: right;
+}
+
+.sec-4-h3-1 {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(224, 151, 78);
+    font-size: 70px;
+}
+
+.sec-4-h3-2 {
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.sec-4-row-2 {
+    margin: 50px 0;
+}
+
+.sec-4-para-1 {
+    font-size: 13px;
+}
+
+.sec-4-para-2 {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.sec-4-para-3 {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(224, 151, 78);
+}
+
+.sec-4-row-1-col {
+    margin-top: 50px;
+}
+
+.sec-4-div {
+    position: relative;
+    bottom: 45px;
+}
+
+.sec-4-para-4 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(224, 151, 78);
+}
+
+.sec-4-para-5 {
+    font-size: 14px;
+    color: black;
+}
+
+.sec-4-para-6 {
+    font-size: 14px;
+    color: black;
+    line-height: 25px;
+}
+
+.sec-4-row-3-h3-1 {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(224, 151, 78);
+    font-size: 70px;
+    text-align: center;
+}
+
+.sec-4-row-3-h3-2 {
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+
+.sec-4-row-3 {
+    margin: 40px 0;
+}
+
+.sec4-card-img {
+    height: 80px;
+    width: 80px;
+    margin: 20px auto;
+}
+
+.sec-4-card-h5 {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.sec-4-card-para {
+    color: black;
+    font-size: 13px;
+    text-align: center;
+}
+
+.sec-4-card {
+    border: none;
+}
+
+/* section-5 */
+#sec-5 {
+    padding: 80px 0;
+}
+
+.sec-5-h3 {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(224, 151, 78);
+    font-size: 70px;
+    text-align: center;
+}
+
+.sec-5-h4 {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    bottom: 50px;
+}
+
+.sec-5-span {
+    display: inline-block;
+    color: rgb(224, 151, 78);
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+}
+
+.sec-5-para-1 {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.sec-5-para-2 {
+    color: rgb(45, 45, 45);
+    font-size: 12px;
+}
+
+.sec-5-btn {
+    background-color: rgb(224, 151, 78);
+    border: none;
+    font-size: 12px;
+}
+
+.sec-5-div {
+    height: 150px;
+    width: 150px;
+    padding: 20px 0;
+}
+
+.sec-5-col-3 {
+    max-width: 17%;
+    margin-right: 30px;
+}
+
+.sec-5-row {
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+
+/* section-6 */
+#sec-6 {
+    padding: 40px 0;
+}
+
+.sec-6-h3 {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(224, 151, 78);
+    font-size: 70px;
+    text-align: center;
+}
+
+.sec-6-h4 {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    bottom: 50px;
+}
+
+.sec-6-para-1 {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.sec-6-para-2 {
+    color: rgb(151, 149, 149);
+    font-size: 12px;
+}
+
+.sec-6-icon {
+    color: rgb(224, 151, 78);
+    margin-right: 5px;
+}
+
+/* section-7 */
+#sec-7 {
+    background-image: url("images/top-view-fresh-raw-lentil-with-buckwheat-dark-space.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.sec-7-h3 {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(224, 151, 78);
+    font-size: 70px;
+    text-align: center;
+}
+
+.sec-7-h4 {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    bottom: 50px;
+}
+
+.sec-7-div {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    z-index: 1;
+    margin-left: 60px;
+}
+
+.sec-7-label {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+input[type=text] {
+    margin: 0 20px 10px 40px;
+    border: 1px solid rgb(209, 207, 207);
+
+}
+
+.sec-7-btn {
+    background-color: rgb(224, 151, 78);
+    border: none;
+    padding: 10px 40px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.sec-7-btn:hover {
+    background-color: rgb(239, 237, 236);
+    border: none;
+    padding: 10px 40px;
+    margin: 0 auto;
+    margin-top: 40px;
+    color: black;
+}
+
+/* section-8 */
+.sec-8-h3 {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(224, 151, 78);
+    font-size: 70px;
+    text-align: center;
+}
+
+.sec-8-h4 {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    bottom: 50px;
+}
+
+.image-owl {
+    height: 100px !important;
+    width: 100px !important;
+    border-radius: 50%;
+    margin: 30px auto;
+}
+
+.double-qt {
+    background-color: rgb(224, 151, 78);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 185px;
+    bottom: 50px;
+}
+
+.sec-8-icon {
+    color: white;
+    margin: 10px 0 0 10px;
+}
+
+.sec-8-para {
+    font-size: 14px;
+    text-align: center;
+}
+
+.sec-8-para-1 {
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sec-8-para-2 {
+    font-size: 10px;
+    color: rgb(151, 149, 149);
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.sec-8-card {
+    border: none;
+}
+
+button.owl-next span {
+    position: absolute;
+    top: 32%;
+    right: 0;
+    font-size: 50px;
+}
+
+button.owl-prev span {
+    position: absolute;
+    top: 32%;
+    left: 0;
+    font-size: 50px;
+}
+
+/* section-9 */
+#sec-9 {
+    padding-bottom: 80px;
+}
+
+.sec-9-h3 {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(224, 151, 78);
+    font-size: 70px;
+    text-align: center;
+}
+
+.sec-9-h4 {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    bottom: 50px;
+}
+
+.sec-9-para-1 {
+    color: rgb(151, 149, 149);
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.sec-9-para-2 {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.sec-9-btn {
+    border: none;
+    font-size: 12px;
+}
+
+#footer {
+    background-color: black;
+    padding: 70px 0;
+}
+
+.footer-h4 {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.footer-para-1 {
+    font-size: 15px;
+    color: rgb(151, 149, 149);
+}
+
+.footer-icon {
+    color: white;
+    margin-right: 10px;
+}
+
+
+.footer-img {
+    height: 180px;
+    width: 200px;
+}
+
+input[type=email] {
+    background-color: rgb(21, 21, 21);
+    border: none;
+    color: rgb(151, 149, 149);
+    padding: 10px 10px;
+}
+
+.footer-btn {
+    background-color: rgb(224, 151, 78);
+    border: none;
+    padding: 10px 67px;
+    margin-top: 10px;
+}
+
+.footer-para-last {
+    color: rgb(151, 149, 149);
+    text-align: center;
+    margin-top: 60px;
+    font-size: 15px;
+}
+
+.footer-ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: inline-block;
+    color: white;
+    list-style: none;
+    font-size: 15px;
+    color: rgb(151, 149, 149);
+    padding-left: 10px;
+}
+
+/* responsive tablet */
+@media(max-width:1199px) {
+
+    .sec-1-para {
+        padding-top: 10px;
+    }
+
+    .sec-2 {
+        padding: 70px 0 100px 0;
+    }
+
+    .sec-3-col {
+        margin-bottom: 20px;
+    }
+
+    .sec-4-img1 {
+        margin-top: 40px;
+        float: right;
+        position: relative;
+        left: 15px;
+        height: 250px;
+        width: 150px;
+    }
+
+    .sec-4-img2 {
+        margin-top: 80px;
+        float: right;
+        height: 250px;
+        width: 150px;
+    }
+
+    .sec-4-para-1 {
+        font-size: 12px;
+    }
+
+    .sec-4-para-3 {
+        font-size: 20px;
+    }
+
+    .sec-4-para-2 {
+        margin-bottom: 0;
+    }
+
+    .sec-4-row-2 {
+        margin: 10px 0;
+    }
+
+    .sec-4-para-4 {
+        font-size: 20px;
+    }
+
+    .sec-4-para-5 {
+        font-size: 12px;
+        color: black;
+    }
+
+    .sec-4-para-6 {
+        font-size: 12px;
+        color: black;
+        line-height: 15px;
+    }
+
+    .sec4-card-img {
+        height: 60px;
+        width: 60px;
+        margin: 10px auto;
+    }
+
+    .sec-4-card-h5 {
+        font-size: 17px;
+    }
+
+    .sec-4-card-para {
+        font-size: 9px;
+    }
+
+    .sec-4-row-3 {
+        margin: 20px 0;
+    }
+
+    /* section-5 */
+    .sec-5-row {
+        margin-left: 120px;
+        margin-bottom: 20px;
+    }
+
+    .sec-5-col-3 {
+        max-width: 15%;
+        margin-right: 20px;
+    }
+
+    .sec-5-div {
+        height: 100px;
+        width: 100px;
+        padding: 20px 0;
+    }
+
+    .sec-5-para-1 {
+        font-size: 10px;
+    }
+
+    .sec-5-para-2 {
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+
+    .sec-5-btn {
+        font-size: 10px;
+    }
+
+    .sec-5-span {
+        font-size: 15px;
+        font-weight: bold;
+        float: right;
+    }
+
+    .sec-5-img-2 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .sec-5-img-1 {
+        width: 100px;
+        height: 100px;
+    }
+
+    /* section-6 */
+    .sec-6-card {
+        width: 16rem;
+        margin: 0 auto;
+        margin-bottom: 90px;
+    }
+
+    .sec-7-div {
+        margin: auto auto;
+    }
+
+    .sec-9-para-2 {
+        font-size: 13.6px;
+    }
+
+    /* footer-section */
+    .footer-h4 {
+        padding-top: 20px;
+    }
+
+    #background::after {
+        position: relative;
+    }
+}
+
+/* Mobile Responsive */
+@media(max-width:768px) {
+    .sec-1-para {
+        font-size: 12px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .sec-2 {
+        padding: 70px 0 100px 0;
+    }
+
+    .sec-3-para1 {
+        font-size: 11px;
+    }
+
+    .sec-3-para2 {
+        font-size: 9px;
+    }
+
+
+    .sec-4-row-1-col {
+        margin: 50px auto;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .sec-4-para-4 {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .sec-4-para-5 {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .sec-4-para-6 {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .sec-4-row-3-h3-1 {
+        font-size: 60px;
+    }
+
+    .sec-4-row-3-h3-2 {
+        font-size: 40px;
+    }
+
+    .sec4-card-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* section-5 */
+    #sec-5 {
+        padding: 40px 0;
+    }
+    .sec-5-img-1 {
+        width: 120px;
+        height: 111px;
+    }
+    .sec-5-para-1 {
+        font-size: 12px;
+    }
+    .sec-5-btn {
+        font-size: 12px;
+    }
+    .sec-5-img-2 {
+        width: 120px;
+        height: 111px;
+    }
+
+    .sec-5-col-3 {
+        max-width: 41%;
+        margin-right: 20px;
+
+    }
+
+    .sec-5-div {
+        height: 140px;
+        width: 120px;
+        padding: 0px 0;
+        margin: 0 auto;
+    }
+
+    .sec-5-row {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    /* section-6 */
+    .sec-6-h3 {
+        font-size: 60px;
+    }
+
+    .sec-6-h4 {
+        font-size: 30px;
+    }
+
+    .sec-6-card {
+        width: 13rem;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .sec-7-div {
+        width: 320px;
+        height: 680px;
+    }
+
+    .sec-7-h3 {
+        font-size: 50px;
+    }
+
+    .sec-7-h4 {
+        font-size: 40px;
+        bottom: 45px;
+    }
+
+    .ec-7-btn {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .sec-8-h3 {
+        font-size: 50px;
+    }
+
+    .sec-8-h4 {
+        font-size: 30px;
+        bottom: 40px;
+    }
+
+    .sec-9-h3 {
+        font-size: 50px;
+    }
+
+    .sec-9-h4 {
+        font-size: 35px;
+        bottom: 40px;
+    }
+
+    .sec-9-card {
+        width: 14rem;
+        margin: 10px auto;
+    }
+
+    #footer {
+        text-align: center;
+        padding: 30px 0;
+    }
+
+    .footer-h4 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+
+    .sec-9-para-2 {
+        font-size: 14.6px;
+    }
+
+
+    #background::after {
+        position: relative;
+    }
+
+    .sec-4-card-body {
+        padding: 0.25rem;
+    }
+
+    input[type=text] {
+        margin: 0 20px 10px 40px;
+        border: 1px solid rgb(209, 207, 207);
+        width: 70%;
+    }
+}
